@@ -5,7 +5,7 @@
 
 .row-content{
     padding: 0px auto;
-    margin: 0px auto;    
+    margin: 100px auto;    
     min-height: 100px;
 }
 
@@ -17,7 +17,7 @@
 
 .jumbotron{
     padding: 70px 30px 70px 30px;
-    margin: 0px auto;
+    margin: 0px auto 100px;
     background: #9575cd;
     color: floralwhite;
 }
@@ -29,10 +29,10 @@ address{
 }
 
 body{
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
+    padding:50px 0px 0px 0px;
+    z-index:0;
 }
 
-.navbar-dark{
-    background-color: #512da8;
+.navbar-dark {
+     background-color: #512DA8;
 }
