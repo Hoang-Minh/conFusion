@@ -37,15 +37,18 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" alt="logo" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <button class="btn btn-warning btn-sm btn-block"><a class="unstyled" href="/index.html#reserve-table"><strong>Reserve Table</strong></a></button>
                 </div>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <div class="row row-content">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
@@ -53,7 +56,7 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
                         <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>                    
                 </div>                
@@ -61,13 +64,19 @@
         </div>
 
 
-        <div class="row row-content">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img src="img/buffet.png" alt="buffet" class="d-flex ml-3 img-thumbnail align-self-center">
+                </div>
+                
             </div>
         </div>
 
@@ -89,8 +98,9 @@
         </div>
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-2"></div>
-            <div class="col-12 col-sm-8">
-                <div class="card">
+            <div class="col-12 col-sm-8">                
+                <div class="card" id="reserve-table">
+                    <a name="reserve-table"></a>
                     <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
                     <div class="card-body">
                         <dl class="row">
