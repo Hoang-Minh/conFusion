@@ -127,72 +127,7 @@
                     </a>
                 </div>
             </div>
-        </div>
-        
-        <!-- <div class="row row-content align-items-center">            
-            <div class="col-12 col-sm-8 offset-md-2">                
-                <div class="card" id="reserve-table">
-                    <a name="reserve-table"></a>
-                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <div class="card-body">
-                        <dl class="row">
-                            <dd class="col-12 col-sm-2">Number of guests</dd>
-                            <div class="col-2 col-sm-1">
-                                <div class="form-check">
-                                    <input type="radio" class="form-check-input" name="number" id="one" value="">
-                                    <label class="form-check-label" for="one">1</label>
-                                </div>
-                            </div>
-                            <div class="col-2 col-sm-1">
-                                <div class="form-check">
-                                    <input type="radio" class="form-check-input" name="number" id="two" value="">
-                                    <label class="form-check-label" for="two">2</label>
-                                </div>
-                            </div>
-                            <div class="col-2 col-sm-1">
-                                <div class="form-check">
-                                    <input type="radio" class="form-check-input" name="number" id="three" value="">
-                                    <label class="form-check-label" for="three">3</label>
-                                </div>
-                            </div>
-                            <div class="col-2 col-sm-1">
-                                <div class="form-check">
-                                    <input type="radio" class="form-check-input" name="number" id="four" value="">
-                                    <label class="form-check-label" for="four">4</label>
-                                </div>
-                            </div>
-                            <div class="col-2 col-sm-1">
-                                <div class="form-check">
-                                    <input type="radio" class="form-check-input" name="number" id="five" value="">
-                                    <label class="form-check-label" for="five">5</label>
-                                </div>
-                            </div>
-                            <div class="col-2 col-sm-1">
-                                <div class="form-check">
-                                    <input type="radio" class="form-check-input" name="number" id="six" value="">
-                                    <label class="form-check-label" for="six">6</label>
-                                </div>
-                            </div>                            
-                        </dl>
-                        <dl class="row">
-                            <dd class="col-12 col-sm-2">Date and Time</dd>
-                            <div class="col-6 col-md-4">
-                                <input type="text" class="form-control" id="date" name="date" placeholder="Date">                        
-                            </div>
-                            <div class="col-6 col-md-4">
-                                <input type="text" class="form-control" id="time" name="time" placeholder="Time"> 
-                            </div>
-                        </dl>
-                        <dl class="row">
-                            <div class="col-12 col-md-2 offset-md-2">
-                                <button class="btn btn-primary">Reserve</button>
-                            </div>
-                        </dl>
-                    </div>
-                </div>
-            </div>
-            
-        </div> -->
+        </div>      
 
         <div id="reserveTableModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
@@ -203,37 +138,44 @@
                     </div>
                     <div class="modal-body">
                         <form>
-                            <div class="form-row">                             
+                            <div class="form-row mt-4 mb-4">                             
                                 <div class="col-12 col-sm-2">
                                     <label><strong>Number of Guests</strong></label>
                                 </div>
                                 <div class="form-group col-12 col-sm-10">
-                                    <label class="radio-inline mr-2"><input type="radio" name="optradio">1</label>
-                                    <label class="radio-inline mr-2"><input type="radio" name="optradio">2</label>
-                                    <label class="radio-inline mr-2"><input type="radio" name="optradio">3</label>
-                                    <label class="radio-inline mr-2"><input type="radio" name="optradio">4</label>
-                                    <label class="radio-inline mr-2"><input type="radio" name="optradio">5</label>
-                                    <label class="radio-inline mr-2"><input type="radio" name="optradio">6</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio" checked>1</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio">2</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio">3</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio">4</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio">5</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio">6</label>
                                 </div>
                             </div>
-                            <div class="form-row">
-                                <div class="col-12 col-sm-2">                                    
+                            <div class="form-row mt-4 mb-4">
+                                <div class="col-12 col-sm-2 mt-2">                                    
                                     <label><strong>Section</strong></label>
                                 </div>
                                 <div class="form-group btn-group col-12 col-sm-10" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-success">Non-Smoking</button>
-                                    <button type="button" class="btn btn-danger">Smoking</button>
+                                    <button type="button" class="btn btn-success"><strong>Non-Smoking</strong></button>
+                                    <button type="button" class="btn btn-danger"><strong>Smoking</strong></button>
                                 </div>
                             </div>
-                            <div class="form-row">
-                                <div class="col-12 col-sm-2"><label><strong>Date and Time</strong></label></div>
-                                <div class="col-6 col-sm-3">
+                            <div class="form-row mt-4 mb-4">
+                                <div class="col-12 col-sm-2 mt-2"><label><strong>Date and Time</strong></label></div>
+                                <div class="col-6 col-sm-5">
                                     <input type="text" class="form-control" id="date" name="date" placeholder="Date">
                                 </div>
                                 <div class="col-6 col-sm-3">
                                     <input type="text" class="form-control" id="time" name="time" placeholder="Time"> 
+                                </div>                                
+                            </div>                            
+                            <div class="form-row mt-5 mb-4">
+                                <div class="btn-group mr-2 offset-sm-2" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><strong>Cancel</strong></button>
                                 </div>
-                                
+                                <div class="btn-group mr-2" role="group" aria-label="Second group">
+                                    <button type="button" class="btn btn-primary"><strong>Reserve</strong></button>
+                                </div>
                             </div>
                         </form>
                     </div>
