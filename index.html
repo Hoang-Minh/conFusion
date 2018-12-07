@@ -155,9 +155,13 @@
                                 <div class="col-12 col-sm-2 mt-2">                                    
                                     <label><strong>Section</strong></label>
                                 </div>
-                                <div class="form-group btn-group col-12 col-sm-10" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-success"><strong>Non-Smoking</strong></button>
-                                    <button type="button" class="btn btn-danger"><strong>Smoking</strong></button>
+                                <div class="form-group btn-group btn-group-toggle col-12 col-sm-10" data-toggle="buttons">
+                                    <label class="btn btn-success active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-Smoking
+                                    </label>
+                                    <label class="btn btn-danger">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                    </label>                                    
                                 </div>
                             </div>
                             <div class="form-row mt-4 mb-4">
