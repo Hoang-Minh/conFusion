@@ -73,5 +73,5 @@ gulp.task('usemin', function() {
 // Default task
 gulp.task('default', gulp.series('browser-sync', 'sass:watch'));
 
-gulp.task('build', gulp.series('clean', 'copyfonts', 'imagemin', 'usemin', function (done) { done(); }    
+gulp.task('build', gulp.series('clean', 'copyfonts', gulp.parallel('imagemin', 'usemin'), function (done) { done(); }    
 ));
